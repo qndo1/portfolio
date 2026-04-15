@@ -1,32 +1,20 @@
 [
     {
-        "title": "How Data encryption can be read through EMF radiation",
-        "year": "2024",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Hardware emits EMF that canbe read to attept to decipher red data lines or find black and reddata pairs in a breach of security."
-    },
-    {
-        "title": "Bike Stuff",
-        "image": "../images/proj2.png",
-        "description": "Made a bake route map and a bike repair guide.",
-        "year": "2024"
-    },
-    {
         "title": "MATH216 A",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Cupiditate, repudiandae ad blanditiis excepturi similique quo provident illo illum laudantium a molestiae sunt non ullam voluptate nostrum alias. Accusamus repellendus nostrum nemo eos sint id voluptatum quas repudiandae ea!",
         "year": "2025"
     },
     {
-        "title": "MATH 216B",
+        "title": "NOPE",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Dolorem alias eaque culpa quas laboriosam exercitationem velit id, rem ad, expedita perspiciatis in ipsum dolorum. Necessitatibus, iusto dolorem itaque quidem reprehenderit quibusdam, nam ad distinctio odit inventore, delectus dicta.",
         "year": "2026"
     },
     {
-        "title": "Capstone",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Sequi, praesentium id, alias quae omnis eaque, nisi illum enim illo ducimus eos. Aliquid veritatis aperiam quae, voluptate officiis pariatur reprehenderit similique enim ex velit. Nostrum deserunt non vitae atque.",
+        "title": "Body Region Matching with High Density Point Clouds",
+        "image": "../images/motion_cap_ot.png",
+        "description": "A real-time motion capture system that uses camera-based tracking, IR/LED markers, and calibration pipelines (built with ROS, Python, and MATLAB) to accurately reconstruct 3D positions for objects or markers.",
         "year": "2026"
     },
     {
@@ -37,38 +25,14 @@
     },
     {
         "title": "Capstone P1",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "image": "../images/capstone_p1.png",
         "description": "Delectus adipisci tenetur exercitationem totam ab quis! Nobis, earum, perspiciatis sunt assumenda maiores quod fuga obcaecati iusto ex ducimus ut qui perferendis dicta neque voluptatem soluta quas aut molestiae nostrum.",
         "year": "2025"
     },
     {
-        "title": "At est esse deserunt!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Aut enim iusto officiis at ratione praesentium inventore soluta dolorum deserunt hic tenetur corrupti laudantium dolorem, voluptatem facere nihil voluptate odio ad, in animi itaque accusamus exercitationem. Fugiat, veniam ipsum.",
-        "year": "2007"
-    },
-    {
-        "title": "Dignissimos voluptatibus impedit architecto?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Quam ullam velit illum esse adipisci ipsa fuga itaque, dolores nobis nesciunt delectus nulla eius officiis aspernatur facere voluptatibus tenetur, quod sit necessitatibus non labore expedita consequuntur. Necessitatibus, debitis nulla!",
-        "year": "2023"
-    },
-    {
-        "title": "Eligendi unde quo quas!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Non dicta nobis magnam quas ad repellendus numquam, possimus ipsum ratione rerum quod distinctio itaque sit corrupti, nesciunt asperiores. Aliquam iure cupiditate esse possimus dolor? Temporibus similique sint tempore deserunt!",
-        "year": "2010"
-    },
-    {
-        "title": "Pariatur iste inventore architecto!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Voluptate, ipsum! Ducimus culpa autem adipisci voluptas facere voluptatem soluta illum ratione impedit eveniet quibusdam quae, provident sed ab dignissimos molestias error id delectus quisquam eius facilis. Iusto, earum veritatis.",
-        "year": "2005"
-    },
-    {
-        "title": "Autem reiciendis enim pariatur.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Porro consectetur illo fugit deleniti autem exercitationem voluptates quo temporibus quas aspernatur molestiae corporis quos corrupti cum repudiandae, laboriosam in, tempore necessitatibus saepe dignissimos totam? Repellat a aperiam pariatur asperiores!",
-        "year": "2022"
+        "title": "Bike Stuff",
+        "image": "../images/proj2.png",
+        "description": "Made a bake route map and a bike repair guide.",
+        "year": "2024"
     }
 ]
