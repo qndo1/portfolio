@@ -18,7 +18,7 @@ let pages = [
   { url: "contact/", title: "Contact" },
   { url: "resume.html", title: "Resume" },
   { url: "meta/", title: "Meta" },
-  { url: "https://github.com/KrazyKats", title: "GitHub" },
+  { url: "https://github.com/qndo1", title: "GitHub" },
 ];
 
 // Create <nav> and add to <body>
