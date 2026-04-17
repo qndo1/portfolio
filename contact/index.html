@@ -4,31 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
-    <title>Contacts</title>
+    <title>Contact</title>
 </head>
 <body>
-    <!-- <nav>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../project/index.html">Projects</a></li>
-            <li><a href="../contact/index.html">Contact</a></li>
-            <li><a href="../resume.html">Resume</a></li>
-            <li><a href="https://github.com/KrazyKats">GitHub</a></li>
-        </ul>
-    </nav> -->
+
     <h1>Contact Me</h1>
-    <form action="mailto:qndo@ucsd.edu" method="GET">
-      <label for="name">Your Name</label>
-      <input type="text" id="name" name="name" />
 
-      <label for="Subject">Subject</label>
-      <input type="Subject" id="Subject" name="Subject" />
+    <form id="contact-form">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" />
 
-      <label for="body">Message</label>
-      <textarea id="body" name="body"></textarea>
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" />
 
-      <button type="submit">Send Message</button>
-      </form>
-      <script type="module" src="../global.js"></script>
-    </body>
+        <label for="body">Message</label>
+        <textarea id="body" name="body"></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            const name = document.getElementById("name").value;
+            const subjectInput = document.getElementById("subject").value;
+            const body = document.getElementById("body").value;
+
+            const subject = "Sent From Portfolio Website - " + subjectInput;
+
+            const mailtoLink =
+                "mailto:qndo@ucsd.edu" +
+                "?subject=" + encodeURIComponent(subject) +
+                "&body=" + encodeURIComponent(
+                    "Name: " + name + "\n\n" + body
+                );
+
+            window.location.href = mailtoLink;
+        });
+    </script>
+
+    <script type="module" src="../global.js"></script>
+</body>
 </html>

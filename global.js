@@ -9,7 +9,7 @@ function $$(selector, context = document) {
 // Base path for internal links
 const BASE_PATH = (location.hostname === "localhost" || location.hostname === "127.0.0.1")
   ? "/"
-  : "/dsc_106/"; // Change this to match your GitHub repo name
+  : "/portfolio/"; // Change this to match your GitHub repo name
 
 // === Step 3: Navigation ===
 let pages = [
@@ -126,7 +126,7 @@ export async function fetchJSON(url) {
 export function renderProjects(projects, containerElement, headingLevel = 'h2') {
   if (!containerElement || !Array.isArray(projects)) return;
 
-  containerElement.innerHTML = ''; // Clear existing content
+  containerElement.innerHTML = '';
 
   if (projects.length === 0) {
     containerElement.innerHTML = '<p>No projects available.</p>';
@@ -150,7 +150,21 @@ export function renderProjects(projects, containerElement, headingLevel = 'h2') 
       </div>
     `;
 
-    containerElement.appendChild(article);
+    // ✅ NEW: wrap article in link if URL exists
+    const link = document.createElement('a');
+    link.classList.add('project-link');
+
+    if (project.url) {
+      link.href = project.url;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+    } else {
+      link.href = '#';
+      link.addEventListener('click', (e) => e.preventDefault());
+    }
+
+    link.appendChild(article);
+    containerElement.appendChild(link);
   });
 }
 

@@ -344,3 +344,9 @@ path {
   bottom: auto;
   height: 50vh;
 }
+
+.project-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
