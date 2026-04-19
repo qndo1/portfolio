@@ -1,14 +1,16 @@
 [
     {
-        "title": "MATH216 A",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Cupiditate, repudiandae ad blanditiis excepturi similique quo provident illo illum laudantium a molestiae sunt non ullam voluptate nostrum alias. Accusamus repellendus nostrum nemo eos sint id voluptatum quas repudiandae ea!",
+        "title": "GW Methods for Graph Matching",
+        "image": "https://qndo1.github.io/portfolio/images/network_graph.png",
+        "description": "This project evaluates two frameworks for node matching in complex networks: Gromov-Wasserstein Learning (GWL) and Bregman Alternating Projected Gradient (BAPG). It explores the trade-offs between computational speed and matching accuracy in noisy environments.",
+        "url": "https://github.com/qndo1/gwgp",
         "year": "2025"
     },
     {
-        "title": "NOPE",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Dolorem alias eaque culpa quas laboriosam exercitationem velit id, rem ad, expedita perspiciatis in ipsum dolorum. Necessitatibus, iusto dolorem itaque quidem reprehenderit quibusdam, nam ad distinctio odit inventore, delectus dicta.",
+        "title": "Lottery Ticket Analysis",
+        "image": "https://qndo1.github.io/portfolio/images/lotteryticket.webp",
+        "description": "The project investigates the Lottery Ticket Hypothesis for neural networks, focusing on convolutional neural networks trained on CIFAR-10 and CIFAR-100, and explore how lottery tickets transfer across datasets and how ticket sparsity relates to the intrinsic dimensionality of the target function.",
+        "url": "https://github.com/qndo1/math216B/tree/main/Final_proj",
         "year": "2026"
     },
     {
